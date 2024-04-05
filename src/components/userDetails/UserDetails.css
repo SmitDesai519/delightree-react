@@ -1,0 +1,19 @@
+.container {
+  max-width: 800px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  margin: 1rem auto 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    width: 100%;
+  }
+}
