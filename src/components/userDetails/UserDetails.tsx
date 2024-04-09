@@ -60,6 +60,7 @@ export const UserDetails = () => {
     onSubmit,
   } = useUserDetails();
 
+  //Add both register and controller methods for user details fields in the form for demonstration purposes.
   return (
     <FormProvider {...methods}>
       <form onSubmit={handleSubmit(onSubmit)} className="container">
